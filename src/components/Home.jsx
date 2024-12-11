@@ -5,9 +5,19 @@ const Home = () => {
     <>
       <div className="flex flex-col items-center justify-center space-y-8" style={{ height: "90vh" }}>
         <img src="me.png" alt="" className="gradient-background h-72 w-72 rounded-full shadow-lg" />
-        <div className="space-y-4 text-center">
-          <h3 className="text-2xl text-neutral-700">Hi, I'm <span className="font-bold">Tyler Holloway</span>, a Ph.D. at Harvard.</h3>
+        {/* <div className="space-y-4 text-center">
+          <h3 className="text-2xl text-neutral-700">Hi, I'm <span className="font-bold">Tyler Holloway</span></h3>
+          <h3 className="text-2xl text-neutral-700">A CS Ph.D. researching <span className="font-bold">Automated Code Generation</span></h3>
           <p className="text-lg font-thin text-zinc-600">Contact me at <a href="mailto:tylerholloway@g.harvard.edu" className="text-blue-600 hover:text-blue-800 transition duration-300">tylerholloway@g.harvard.edu</a></p>
+        </div> */}
+        <div className="space-y-2 text-center">
+          <h3 className="text-2xl text-neutral-700">Hi, I'm <span className="font-bold">Tyler Holloway</span></h3>
+          <h3 className="text-xl text-neutral-600 font-light leading-tight">
+            A CS Ph.D. researching <span className="font-semibold text-neutral-800">Automated Code Generation</span>
+          </h3>
+          <p className="text-lg font-thin text-zinc-600 mt-4">
+            Contact me at <a href="mailto:tylerholloway@g.harvard.edu" className="text-blue-600 hover:text-blue-800 transition duration-300">tylerholloway@g.harvard.edu</a>
+          </p>
         </div>
         <div className="flex flex-row justify-center text-center space-x-5">
           {/* Projects */}
